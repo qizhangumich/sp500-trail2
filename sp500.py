@@ -13,10 +13,10 @@ import altair as alt
 
 
 
-snp500 = pd.read_csv("Datasets/SP500.csv")
-symbols = snp500['Symbol'].sort_values().tolist()
+#snp500 = pd.read_csv("Datasets/SP500.csv")
+#symbols = snp500['Symbol'].sort_values().tolist()
 
-#symbols = ["NET","AAPL","MMM","A"]
+symbols = ["NET","AAPL","MMM","A"]
 ticker = st.sidebar.selectbox(
     'Choose a S&P 500 Stock',
      symbols)     
