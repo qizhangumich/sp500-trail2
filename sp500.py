@@ -7,12 +7,8 @@ Created on Sun Nov 14 16:04:44 2021
 
 import numpy as np
 import pandas as pd
-import hvplot.pandas
-from pathlib import Path
 import yfinance as yf
 import streamlit as st
-import holoviews as hv
-hv.extension('bokeh', logo=False)
 import altair as alt
 
 
